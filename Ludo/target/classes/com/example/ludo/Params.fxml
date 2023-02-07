@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ludo.ParamsController">
+   <children>
+      <ChoiceBox fx:id="choicePlayers" layoutX="172.0" layoutY="302.0" prefHeight="30.0" prefWidth="90.0" />
+      <Label layoutX="113.0" layoutY="268.0" prefHeight="30.0" prefWidth="226.0" text="Select number of players:">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="483.0" layoutY="268.0" prefHeight="30.0" prefWidth="234.0" text="Select the number of bots:" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <ChoiceBox fx:id="choiceBots" layoutX="555.0" layoutY="302.0" prefHeight="30.0" prefWidth="90.0" />
+      <Label fx:id="player1" layoutX="881.0" layoutY="354.0" prefHeight="30.0" prefWidth="90.0" text="Label" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="player2" layoutX="881.0" layoutY="399.0" text="Label" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="player4" layoutX="881.0" layoutY="489.0" text="Label" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="player3" layoutX="881.0" layoutY="444.0" text="Label" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="881.0" layoutY="268.0" prefHeight="30.0" prefWidth="169.0" text="Choose base color.">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="color1" layoutX="1003.0" layoutY="354.0" text="Label" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="color2" layoutX="1003.0" layoutY="399.0" text="Label" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="color3" layoutX="1003.0" layoutY="444.0" text="Label" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="color4" layoutX="1003.0" layoutY="489.0" text="Label" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="change" focusTraversable="false" layoutX="927.0" layoutY="302.0" mnemonicParsing="false" onAction="#change" prefHeight="30.0" prefWidth="75.0" text="Change" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="27.0" layoutY="23.0" mnemonicParsing="false" onAction="#exit" prefHeight="82.0" prefWidth="100.0" text="🡄">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

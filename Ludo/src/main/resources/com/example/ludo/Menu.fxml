@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ludo.MenuController">
+   <children>
+      <Button focusTraversable="false" layoutX="28.0" layoutY="21.0" mnemonicParsing="false" onAction="#showRules" prefHeight="51.0" prefWidth="93.0" text="Rules">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="450.0" layoutY="325.0" mnemonicParsing="false" onAction="#play" prefHeight="115.0" prefWidth="299.0" text="Play!">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Button>
+      <Label layoutX="492.0" layoutY="100.0" text="Ludo">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
